@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Priya Gold ASM Tracker</title>
+    <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background: #f4f4f9;
+      padding: 2rem;
+      margin: 0;
+    }
+    
+
+    .form-header {
+        display: grid;
+        place-items: center; /* Centers both vertically and horizontally */
+        text-align: center;
+        }
+        .form-header img {
+        max-width: 100%;
+        height: auto;
+        }
+
+    form {
+      background: #fff;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.2);
+      max-width: 800px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 1.5rem;
+    }
+
+    label {
+      display: block;
+      margin-top: 1rem;
+      font-weight: bold;
+      color: #555;
+    }
+
+    select, input[type="text"], input[type="month"] {
+      width: 100%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      transition: border-color 0.3s;
+    }
+
+    select:focus, input[type="text"]:focus, input[type="month"]:focus {
+      border-color: #007BFF;
+      outline: none;
+    }
+
+    table {
+      width: 100%;
+      margin-top: 1rem;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ddd;
+      text-align: center;
+    }
+
+    th {
+      background: #f0f0f0;
+      color: #333;
+    }
+
+    .btn {
+      display: block;
+      background: #007BFF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin: 2rem auto 0;
+      cursor: pointer;
+      font-size: 16px;
+      transition: background 0.3s;
+    }
+
+    .btn:hover {
+      background: #0056b3;
+    }
+
+    .btn:disabled {
+      background: #ccc;
+    }
+
+    .spinner {
+      display: none;
+      margin: 1rem auto;
+      border: 6px solid #f3f3f3;
+      border-top: 6px solid #3498db;
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      animation: spin 1s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+
+</head>
+<body>
+  <form id="stockForm" enctype="multipart/form-data">
+    <div class="form-header">
+          <img src="images/logo.jpg" alt="Logo" width=150>
+          <h2>Priya Gold ASM Tracker</h2>
+    </div>
+
+    <label for="state">State</label>
+    <select id="state" required></select>
+
+    <label for="ss">SS Name</label>
+    <select id="ss" required></select>
+
+    <label for="db">ASM Name</label>
+    <select id="db" required></select>
+
+    <label for="password">Password</label>
+    <input type="text" id="password" required>
+
+    <label for="month">Month</label>
+    <input type="month" id="month" required>
+
+    <label for="DataType">Select Type</label>
+    <select id="DataType" required>
+      <option value="" disabled selected>Choose</option>
+      <option value="TGT">TGT</option>
+      <option value="ACH">ACH</option>
+    </select>
+
+    <div id="stockSection" style="display:none;">
+      <table>
+        <thead>
+          <tr>
+            <th>Id</th>
+            <th>Db Name</th>
+            <th>TGT</th>
+            <th>Week 1</th>
+            <th>Week 2</th>
+            <th>Week 3</th>
+            <th>Week 4</th>
+          </tr>
+        </thead>
+        <tbody id="stockTableBody"></tbody>
+      </table>
+    </div>
+
+    <div class="spinner" id="spinner"></div>
+    <button class="btn" id="submitBtn" type="submit" disabled>Submit</button>
+  </form>
+<script>
+  const stateSel = document.getElementById('state');
+  const ssSel = document.getElementById('ss');
+  const dbSel = document.getElementById('db');
+  const passwordInput = document.getElementById('password');
+  const submitBtn = document.getElementById('submitBtn');
+  const stockTableBody = document.getElementById('stockTableBody');
+  const stockSection = document.getElementById('stockSection');
+  const spinner = document.getElementById('spinner');
+
+  let dbData = {};
+  let skuData = [];
+
+  async function loadData() {
+    const dbRes = await fetch('Data/db.json');
+    dbData = await dbRes.json();
+
+    //const skuRes = await fetch('Output/sku_master.json');
+    const skuRes = await fetch('Output/dbtgt1.json');
+
+    
+    const raw = await skuRes.json();
+    skuData = Object.keys(raw.ASM).map(key => ({
+      ASM: raw.ASM[key],
+      DB: raw.DB[key],
+      TGT: raw.TGT[key]
+    }));
+    console.log(raw)
+    populateStates();
+  }
+
+  
+
+  function populateStates() {
+    const states = Object.keys(dbData);
+    stateSel.innerHTML = '<option value="">Select State</option>' + states.map(s => `<option>${s}</option>`).join('');
+  }
+
+  stateSel.onchange = () => {
+    ssSel.innerHTML = '<option value="">Select SS</option>';
+    dbSel.innerHTML = '<option value="">Select DB</option>';
+    passwordInput.value = '';
+    submitBtn.disabled = true;
+    stockSection.style.display = 'none';
+
+    const ssList = Object.keys(dbData[stateSel.value] || {});
+    ssList.forEach(ss => ssSel.innerHTML += `<option>${ss}</option>`);
+  };
+
+  ssSel.onchange = () => {
+    dbSel.innerHTML = '<option value="">Select DB</option>';
+    passwordInput.value = '';
+    submitBtn.disabled = true;
+    stockSection.style.display = 'none';
+
+    const dbList = Object.keys(dbData[stateSel.value]?.[ssSel.value] || {});
+    dbList.forEach(db => dbSel.innerHTML += `<option>${db}</option>`);
+
+
+  };
+
+  dbSel.onchange = () => {
+    passwordInput.value = '';
+    submitBtn.disabled = true;
+    stockSection.style.display = 'none';
+  };
+
+  passwordInput.oninput = () => {
+    const actualPassword = dbData?.[stateSel.value]?.[ssSel.value]?.[dbSel.value]?.password;
+    if (passwordInput.value === String(actualPassword)) {
+      const selectedASM = dbSel.value;
+      renderStockTable(selectedASM);
+      stockSection.style.display = 'block';
+      checkInputs();
+    } else {
+      stockSection.style.display = 'none';
+      submitBtn.disabled = true;
+    }
+  };
+
+  function renderStockTable(selectedASM) {
+    stockTableBody.innerHTML = '';
+    skuData.filter(ASM => ASM.ASM === selectedASM).forEach(({ ASM, DB, TGT }) => {
+      const row = document.createElement('tr');
+      row.innerHTML = `
+        <td>${ASM}</td>
+        <td>${DB}</td>
+        <td>${TGT}</td>
+        <td><input type="text" class="week1" /></td>
+        <td><input type="text" class="week2" /></td>
+        <td><input type="text" class="week3" /></td>
+        <td><input type="text" class="week4" /></td>
+  
+        
+      `;
+      stockTableBody.appendChild(row);
+    });
+  }
+
+  function checkInputs() {
+    const anyFilled = [...document.querySelectorAll('#stockTableBody tr')].some(row => {
+      const inputs = row.querySelectorAll('input');
+      return inputs[0].value.trim() || inputs[1].value.trim();
+    });
+    submitBtn.disabled = !anyFilled;
+  }
+
+  document.getElementById('stockForm').addEventListener('input', checkInputs);
+
+  document.getElementById('stockForm').addEventListener('submit', async (e) => {
+    e.preventDefault();
+    spinner.style.display = 'block';
+    submitBtn.disabled = true;
+
+    const formData = {
+  State: stateSel.value,
+  SS_Name: ssSel.value,
+  DB_Name: dbSel.value,
+  Month: document.getElementById('month').value,
+  DataType: document.getElementById('DataType').value,
+  stocks: []
+};
+
+  const rows = stockTableBody.querySelectorAll('tr');
+  rows.forEach(row => {
+    const cells = row.querySelectorAll('td');
+    const [IdCell, DbCell, TgtCell] = cells;
+
+    const inputs = row.querySelectorAll('input');
+    const weekValues = Array.from(inputs).map(input => input.value.trim());
+
+    // Only include row if at least one week value is entered
+    if (weekValues.some(val => val !== "")) {
+      formData.stocks.push({
+        Id: IdCell.textContent,
+        DB: DbCell.textContent,
+        TGT: TgtCell.textContent,
+        Week1: weekValues[0] || "",
+        Week2: weekValues[1] || "",
+        Week3: weekValues[2] || "",
+        Week4: weekValues[3] || ""
+      });
+    }
+  });
+
+    try {
+      const res = await fetch('https://script.google.com/macros/s/AKfycbyddmKDO3T1T4eHdvi311MhOBUCCRkr6pF3-bgnGNhw_fexpYtA8EZBGMccJbI7ZTqLfQ/exec', {
+        method: 'POST',
+        
+        body: JSON.stringify(formData)
+      });
+      const result = await res.json();
+      alert('Stock data submitted successfully!');
+      downloadCSV(formData);
+      document.getElementById('stockForm').reset();
+      stockSection.style.display = 'none';
+      stockTableBody.innerHTML = '';
+    } catch (err) {
+      alert('Failed to submit data.',err);
+    } finally {
+      spinner.style.display = 'none';
+      submitBtn.disabled = true;
+    }
+  });
+
+// Convert submitted data to CSV format
+function downloadCSV(formData) {
+  // Add header information
+  let csvContent = `State,SS Name,ASM Name,Month,Data Type\n"${formData.State}","${formData.SS_Name}","${formData.DB_Name}","${formData.Month}","${formData.DataType}"\n\n`;
+
+  // Add stock table header
+  csvContent += `Id,Db Name,TGT,Week 1,Week 2,Week 3,Week 4\n`;
+
+  // Add stock rows
+  formData.stocks.forEach(stock => {
+    csvContent += `"${stock.Id}","${stock.DB}","${stock.TGT}","${stock.Week1}","${stock.Week2}","${stock.Week3}","${stock.Week4}"\n`;
+  });
+
+  // Create and download CSV file
+  const blob = new Blob([csvContent], { type: 'text/csv;charset=utf-8;' });
+  const url = URL.createObjectURL(blob);
+
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = `stock_data_${formData.State}_${formData.SS_Name}_${formData.DB_Name}_${formData.Month}.csv`;
+  document.body.appendChild(a);
+  a.click();
+  document.body.removeChild(a);
+}
+
+  loadData();
+</script>
+
+  </body>
+</html>
