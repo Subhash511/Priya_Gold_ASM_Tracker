@@ -177,11 +177,11 @@
   let skuData = [];
 
   async function loadData() {
-    const dbRes = await fetch('Data/db.json');
+    const dbRes = await fetch('Output/db.json');
     dbData = await dbRes.json();
 
     //const skuRes = await fetch('Output/sku_master.json');
-    const skuRes = await fetch('Output/dbtgt1.json');
+    const skuRes = await fetch('Output/dbtgt.json');
 
     
     const raw = await skuRes.json();
