@@ -177,6 +177,7 @@
             <th>Week 2</th>
             <th>Week 3</th>
             <th>Week 4</th>
+            <th>Total_Sum</th>
           </tr>
         </thead>
         <tbody id="stockTableBody"></tbody>
@@ -215,6 +216,7 @@
     
     const raw = await skuRes.json();
     skuData = Object.keys(raw.ASM).map(key => ({
+      SS: raw.SS[key],
       ASM: raw.ASM[key],
       DB: raw.DB[key],
       TGT: raw.TGT[key]
@@ -263,7 +265,9 @@
     const actualPassword = dbData?.[stateSel.value]?.[ssSel.value]?.[dbSel.value]?.password;
     if (passwordInput.value === String(actualPassword)) {
       const selectedASM = dbSel.value;
-      renderStockTable(selectedASM);
+      const selectedSS = ssSel.value;
+      // console.log(selectedSS)
+      renderStockTable(selectedASM,selectedSS);
       stockSection.style.display = 'block';
       checkInputs();
     } else {
@@ -272,24 +276,48 @@
     }
   };
 
-  function renderStockTable(selectedASM) {
-    stockTableBody.innerHTML = '';
-    skuData.filter(ASM => ASM.ASM === selectedASM).forEach(({ ASM, DB, TGT }) => {
+
+function renderStockTable(selectedASM,selectedSS) {
+  stockTableBody.innerHTML = '';
+
+  // const newsku = skuData.filter(item => item.ASM === selectedASM && item.SS === selectedSS)
+  // console.log(newsku)
+  skuData
+    .filter(item => item.ASM === selectedASM && item.SS === selectedSS)
+    .forEach(({ ASM, DB, TGT }, index) => {
       const row = document.createElement('tr');
       row.innerHTML = `
         <td>${ASM}</td>
         <td>${DB}</td>
         <td>${TGT}</td>
-        <td><input type="text" class="week1" /></td>
-        <td><input type="text" class="week2" /></td>
-        <td><input type="text" class="week3" /></td>
-        <td><input type="text" class="week4" /></td>
-  
-        
+        <td><input type="text" class="week1" data-row="${index}" /></td>
+        <td><input type="text" class="week2" data-row="${index}" /></td>
+        <td><input type="text" class="week3" data-row="${index}" /></td>
+        <td><input type="text" class="week4" data-row="${index}" /></td>
+        <td class="total-cell" id="total-${index}">0</td>
       `;
       stockTableBody.appendChild(row);
     });
-  }
+
+    // Add input listeners to week1 to week4 inputs
+    ['week1', 'week2', 'week3', 'week4'].forEach(weekClass => {
+    const inputs = document.querySelectorAll(`.${weekClass}`);
+    inputs.forEach(input => {
+      input.addEventListener('input', () => {
+        const rowIndex = input.getAttribute('data-row');
+        const w1 = parseFloat(document.querySelector(`.week1[data-row="${rowIndex}"]`)?.value) || 0;
+        const w2 = parseFloat(document.querySelector(`.week2[data-row="${rowIndex}"]`)?.value) || 0;
+        const w3 = parseFloat(document.querySelector(`.week3[data-row="${rowIndex}"]`)?.value) || 0;
+        const w4 = parseFloat(document.querySelector(`.week4[data-row="${rowIndex}"]`)?.value) || 0;
+
+        const total = w1 + w2 + w3 + w4;
+        document.getElementById(`total-${rowIndex}`).textContent = total;
+      });
+    });
+  });
+  
+}
+
 
   function checkInputs() {
     const anyFilled = [...document.querySelectorAll('#stockTableBody tr')].some(row => {
