@@ -166,13 +166,22 @@
       <option value="ACH">ACH</option>
     </select>
 
+    <label for="DataType">Select Category</label>
+    <select id="Category" required>
+      <option value="" disabled selected>Choose</option>
+      <option value="Bis.">Biscuit</option>
+      <option value="Conf.">Confectionery</option>
+      <option value="Noodles">Noodles</option>
+    </select>
+
     <div id="stockSection" style="display:none;">
       <table>
         <thead>
           <tr>
             <th>Id</th>
             <th>Db Name</th>
-            <th>TGT</th>
+            <th>Total_TGT
+              (Bis+Conf+Noodles)</th>
             <th>Week 1</th>
             <th>Week 2</th>
             <th>Week 3</th>
@@ -340,6 +349,7 @@ function renderStockTable(selectedASM,selectedSS) {
   DB_Name: dbSel.value,
   Month: document.getElementById('month').value,
   DataType: document.getElementById('DataType').value,
+  Category: document.getElementById('Category').value,
   stocks: []
 };
 
@@ -366,7 +376,7 @@ function renderStockTable(selectedASM,selectedSS) {
   });
 
     try {
-      const res = await fetch('https://script.google.com/macros/s/AKfycbyddmKDO3T1T4eHdvi311MhOBUCCRkr6pF3-bgnGNhw_fexpYtA8EZBGMccJbI7ZTqLfQ/exec', {
+      const res = await fetch('https://script.google.com/macros/s/AKfycbyPNvZZwkc2TxiBl_eVpzfQvAEwKI67PsEnGfDjiHOeZ0zH7nRDDXGIidM6s5gWac1LPg/exec', {
         method: 'POST',
         
         body: JSON.stringify(formData)
