@@ -105,6 +105,11 @@
                 "password": 1164.0
             }
         },
+        "Prabhat Agency|ACUSDP2385": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
         "Ajinkya Traders|ACUSDA0146": {
             "Shailesh Surve": {
                 "password": 7136.0
@@ -113,6 +118,11 @@
         "Bharat Traders|ACUSDB0039": {
             "Kapil Sharma": {
                 "password": 4920.0
+            }
+        },
+        "Shree Datta Agency|ACUSDSS004": {
+            "Vacant": {
+                "password": 1164.0
             }
         },
         "J.K. Brothers|ACUSDJ4838": {
@@ -150,19 +160,14 @@
                 "password": 4920.0
             }
         },
-        "Prabhat Agency|ACUSDP2385": {
-            "Vacant": {
-                "password": 1164.0
+        "Nidhi Sales|NIDHI SALES": {
+            "Anil Jamadar Singh": {
+                "password": 5808.0
             }
         },
         "Prabhat Trading Com.|ACUSDP0183": {
             "Anil Jamadar Singh": {
                 "password": 5808.0
-            }
-        },
-        "Shree Datta Agency|ACUSDSS004": {
-            "Vacant": {
-                "password": 1164.0
             }
         },
         "Shree Krishna Marketing|ACUSDSS006": {
@@ -178,93 +183,6 @@
         "Tirupati Agencies|ACUSDSS002": {
             "Amit Patil": {
                 "password": 5082.0
-            }
-        }
-    },
-    "Chhattisgarh": {
-        "Agarwal Enterprises|ACUSDA0081": {
-            "Amit Ranjan": {
-                "password": 2025.0
-            }
-        },
-        "Bhafna Sales|ACUSDA0116": {
-            "Amit Ranjan": {
-                "password": 2025.0
-            }
-        },
-        "NaN": {
-            "Amit Ranjan": {
-                "password": 2025.0
-            }
-        },
-        "Bol Bam Traders|ACUSDB0056": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Ganesh Traders|ACUSDG0022": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "M/S. Jain Traders|ACUSDJ0212": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Narayani Marketing|ACUSDN0560": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Prateek And Company|ACUSDP0639": {
-            "Amit Ranjan": {
-                "password": 2025.0
-            }
-        },
-        "R.R. Corporation|ACUSDNR0030": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "S.S. Enterprises|ACUSDS1198": {
-            "Ajay Mishra": {
-                "password": 2025.0
-            }
-        },
-        "Sai Traders|ACUSDS0120": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Sai Traders|ACUSDS0121": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Sandeep Agency- Pathalgaon|ACUSDS1397": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Shree Ram Agencies|ACUSDS3534": {
-            "Amit Ranjan": {
-                "password": 2025.0
-            }
-        },
-        "Shree Shyam Agency-Bhilai|ACUSDE3W3": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Singhal Sales|ACUSDS0370": {
-            "Amit Ranjan": {
-                "password": 2025.0
-            }
-        },
-        "Tarun Traders|": {
-            "Amit Ranjan": {
-                "password": 2025.0
             }
         }
     },
@@ -353,12 +271,14 @@
         }
     },
     "Gujarat": {
+        "Farr Ayo Distribution|ACUSDF0061": {
+            "Girvat Raj": {
+                "password": 4370.0
+            }
+        },
         "Anjani Putra Marketing|ACUSDA0699": {
             "Vacant": {
                 "password": 1164.0
-            },
-            "Girvat Raj": {
-                "password": 4370.0
             }
         },
         "Ashok Traders|ACUSDA0117": {
@@ -366,39 +286,24 @@
                 "password": 9989.0
             }
         },
-        "C.J.Malaviya & Co.|ACUSDC0049": {
-            "Vinesh Trivedi": {
-                "password": 3343.0
-            }
-        },
-        "Farr Ayo Distribution|ACUSDF0061": {
-            "Girvat Raj": {
-                "password": 4370.0
-            }
-        },
         "Ishan Marketing|ACUSDI9604": {
             "Toshif Mansuri": {
                 "password": 9989.0
             }
         },
-        "Joshi Enterprises|ACUSDJ0572": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Khemani Enetrprises (Conf)|ACUSDK2024": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Parshvanath Sales Agency|ACUSDP0211": {
+        "C.J.Malaviya & Co.|ACUSDC0049": {
             "Hitesh Thakker": {
                 "password": 1827.0
             }
         },
-        "Proline Sales Agency|ACUSDP5556": {
-            "Vacant": {
-                "password": 1164.0
+        "Joshi Enterprises|ACUSDJ0572": {
+            "Shashi Mishra": {
+                "password": 2025.0
+            }
+        },
+        "Khemani Enetrprises (Conf)|ACUSDK2024": {
+            "Shashi Mishra": {
+                "password": 2025.0
             }
         },
         "Raj Sales|ACUSDR4923": {
@@ -409,9 +314,16 @@
         "Shree Ji Enterprises|ACUSDS0174": {
             "Vinesh Trivedi": {
                 "password": 3343.0
-            },
-            "Hitesh Thakker": {
-                "password": 1827.0
+            }
+        },
+        "Parshvanath Sales Agency|ACUSDP0211": {
+            "Vinesh Trivedi": {
+                "password": 3343.0
+            }
+        },
+        "Proline Sales Agency|ACUSDP5556": {
+            "Shashi Mishra": {
+                "password": 2025.0
             }
         },
         "Somnath Ji Traders|ACUSDS4925": {
@@ -422,7 +334,7 @@
     },
     "Uttarakhand": {
         "Ankit Kumar & Brothers|ACUSDA0797": {
-            "Premdeep Deshwal": {
+            "Avneesh": {
                 "password": 2025.0
             }
         },
@@ -432,7 +344,7 @@
             }
         },
         "Durga Enterprises (Rishikesh)|ACUSDS0457": {
-            "Premdeep Deshwal": {
+            "Avneesh": {
                 "password": 2025.0
             }
         },
@@ -447,7 +359,7 @@
             }
         },
         "Naman Agency|ACUSDN0028": {
-            "Premdeep Deshwal": {
+            "Avneesh": {
                 "password": 2025.0
             }
         },
@@ -472,12 +384,15 @@
             }
         },
         "Shyam Sunder Enterprises- Pithoragarh|ACUSDS0462": {
+            "Vacant": {
+                "password": 1164.0
+            },
             "Prakash Lohani": {
                 "password": 2025.0
             }
         },
         "V.S Enterprises|ACUSDV4827": {
-            "Premdeep Deshwal": {
+            "Avneesh": {
                 "password": 2025.0
             }
         }
@@ -485,6 +400,9 @@
     "Haryana": {
         "Ashish & Co.|ACUSDA1159": {
             "Rakesh Kumar": {
+                "password": 2025.0
+            },
+            "Badal Srivastava": {
                 "password": 2025.0
             }
         },
@@ -564,7 +482,7 @@
             }
         },
         "Shree Kanha Ji Marketing|ACUSDS0438": {
-            "Mahesh": {
+            "Rajiv Kumar": {
                 "password": 2025.0
             }
         },
@@ -654,9 +572,6 @@
         "Manoj Trading Company|ACUSDM0073": {
             "Subhash Yogi": {
                 "password": 2025.0
-            },
-            "NaN": {
-                "password": 2025.0
             }
         },
         "New Sunrise Agency|ACUSDN0605": {
@@ -682,9 +597,6 @@
         "Rasik Remedies Pvt. Ltd.|ACUSDR0074": {
             "Yogesh Sharma": {
                 "password": 9843.0
-            },
-            "NaN": {
-                "password": 2025.0
             }
         },
         "Ravi Enterprises|ACUSDR0154": {
