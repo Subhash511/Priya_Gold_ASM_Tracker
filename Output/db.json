@@ -51,8 +51,8 @@
             }
         },
         "C.J.Malaviya & Co.|ACUSDC0049": {
-            "Hittesh Thakkar": {
-                "password": 2025.0
+            "Hitesh Thakker": {
+                "password": 1827.0
             }
         },
         "Somnath Ji Traders|ACUSDS4925": {
@@ -449,8 +449,8 @@
     },
     "Rajasthan": {
         "Rasik Remedies Pvt. Ltd.|ACUSDR0074": {
-            "Yogesh Sharma": {
-                "password": 9843.0
+            "So Praveen Saxena": {
+                "password": 2025.0
             }
         },
         "Palak Agency|ACUSDP0178": {
@@ -479,8 +479,8 @@
             }
         },
         "Ravi Enterprises|ACUSDR0154": {
-            "Yogesh Sharma": {
-                "password": 9843.0
+            "So Praveen Saxena": {
+                "password": 2025.0
             }
         },
         "Karni Traders|ACUSDK0094": {
@@ -504,10 +504,10 @@
             }
         },
         "Baba Ramdev Distributors|ACUSDB0027": {
-            "Atul": {
+            "Lavish Sethi": {
                 "password": 2025.0
             },
-            "Lavish Sethi": {
+            "Atul": {
                 "password": 2025.0
             }
         },
@@ -524,7 +524,7 @@
                 "password": 2025.0
             }
         },
-        "Nls Brothers Private Limited|ACUSDNOO55": {
+        "Nls Brothers Private Limited|ACUSDN0055": {
             "Mahendra Pal Singh": {
                 "password": 2025.0
             }
@@ -557,7 +557,7 @@
     },
     "Uttarakhand": {
         "Ravi Sons Enterprises|ACUSDR0205": {
-            "Prakash Lohani": {
+            "Mahesh": {
                 "password": 2025.0
             }
         },
@@ -567,12 +567,12 @@
             }
         },
         "Mishra Traders- Chamoli(Dewal)|ACUSDM0228": {
-            "Premdeep Deshwal": {
+            "Avneesh": {
                 "password": 2025.0
             }
         },
         "Deepak Agency|ACUSDD0543": {
-            "Prakash Lohani": {
+            "Mahesh": {
                 "password": 2025.0
             }
         },
@@ -592,7 +592,7 @@
             }
         },
         "Pradeep Agency|ACUSDP4808": {
-            "Prakash Lohani": {
+            "Mahesh": {
                 "password": 2025.0
             }
         },
@@ -607,22 +607,12 @@
             }
         },
         "Shyam Sunder Enterprises- Pithoragarh|ACUSDS0462": {
-            "Vacant": {
-                "password": 1164.0
-            },
-            "Prakash Lohani": {
+            "Mahesh": {
                 "password": 2025.0
             }
         },
         "Shree Balaji Sales|ACUSDS0202": {
             "Salabh Partap": {
-                "password": 2025.0
-            }
-        }
-    },
-    "NaN": {
-        "NaN": {
-            "NaN": {
                 "password": 2025.0
             }
         }
