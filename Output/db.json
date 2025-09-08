@@ -178,6 +178,66 @@
             }
         }
     },
+    "Punjab": {
+        "Anand Sales|ACUSDA0820": {
+            "Neeraj Kapoor": {
+                "password": 2025.0
+            }
+        },
+        "Garg Sales Corporation|ACUSDG1091": {
+            "Neeraj Kapoor": {
+                "password": 2025.0
+            }
+        },
+        "Bajarang Sweet House (Conf)|ACUSDB0963": {
+            "Jasbir Verma": {
+                "password": 2025.0
+            }
+        },
+        "Sant Enterprises|ACUSDS1100": {
+            "Jasbir Verma": {
+                "password": 2025.0
+            }
+        },
+        "Shivam Agency|ACUSDSS896": {
+            "Pradeep": {
+                "password": 2025.0
+            }
+        },
+        "Jeet Ram And Sons|ACUSD00063": {
+            "Neeraj Kapoor": {
+                "password": 2025.0
+            }
+        },
+        "Commander Trade Link|ACUSDC1514": {
+            "Jasbir Verma": {
+                "password": 2025.0
+            }
+        },
+        "Saurabh Traders|ACUSDSS106": {
+            "Pradeep": {
+                "password": 2025.0
+            }
+        },
+        "Suri Enterprises|ACUSD00062": {
+            "Pradeep": {
+                "password": 2025.0
+            }
+        },
+        "Grace Drinks Pvt Ltd|ACUSDG0174": {
+            "Rohit Medirata": {
+                "password": 2025.0
+            },
+            "Neeraj Kapoor": {
+                "password": 2025.0
+            }
+        },
+        "Bhana Ram & Sons|ACUSDB0473": {
+            "Neeraj Kapoor": {
+                "password": 2025.0
+            }
+        }
+    },
     "Himachal Pradesh": {
         "Deepak Enterprises|ACUSDD0616": {
             "Parmod Kumar": {
@@ -211,11 +271,6 @@
                 "password": 2025.0
             }
         },
-        "Anant Wardrobe|ACUSD00073": {
-            "Brajesh Sharma": {
-                "password": 2025.0
-            }
-        },
         "Shree Gopalji Enterprises|ACUSDS2806": {
             "Ankit Bhardwaj": {
                 "password": 2025.0
@@ -238,6 +293,11 @@
         },
         "Naman Enterprises|ACUSDN1114": {
             "Anand Gupta": {
+                "password": 2025.0
+            }
+        },
+        "Anant Wardrobe|ACUSD00073": {
+            "Brajesh Sharma": {
                 "password": 2025.0
             }
         },
@@ -384,66 +444,6 @@
         "Navinya Enterprises|ACUSDN0052": {
             "Shailesh Surve": {
                 "password": 7136.0
-            }
-        }
-    },
-    "Punjab": {
-        "Garg Sales Corporation|ACUSDG1091": {
-            "Neeraj Kapoor": {
-                "password": 2025.0
-            }
-        },
-        "Bajarang Sweet House (Conf)|ACUSDB0963": {
-            "Jasbir Verma": {
-                "password": 2025.0
-            }
-        },
-        "Sant Enterprises|ACUSDS1100": {
-            "Jasbir Verma": {
-                "password": 2025.0
-            }
-        },
-        "Shivam Agency|ACUSDSS896": {
-            "Rajinder Singh": {
-                "password": 2025.0
-            }
-        },
-        "Jeet Ram And Sons|ACUSD00063": {
-            "Neeraj Kapoor": {
-                "password": 2025.0
-            }
-        },
-        "Commander Trade Link|ACUSDC1514": {
-            "Jasbir Verma": {
-                "password": 2025.0
-            }
-        },
-        "Saurabh Traders|ACUSDSS106": {
-            "Rajinder Singh": {
-                "password": 2025.0
-            }
-        },
-        "Suri Enterprises|ACUSD00062": {
-            "Neeraj Kapoor": {
-                "password": 2025.0
-            },
-            "Shymu Verma": {
-                "password": 2025.0
-            }
-        },
-        "Grace Drinks Pvt Ltd|ACUSDG0174": {
-            "Shymu Verma": {
-                "password": 2025.0
-            }
-        },
-        "Anand Sales|ACUSDA0820": {
-            "Neeraj Kapoor": {
-                "password": 2025.0
-            }
-        },
-        "Bhana Ram & Sons|ACUSDB0473": {
-            "Neeraj Kapoor": {
-                "password": 2025.0
             }
         }
     },
