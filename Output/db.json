@@ -5,6 +5,21 @@
                 "password": 1164.0
             }
         },
+        "Parshvanath Sales Agency|ACUSDP0211": {
+            "Hitesh Thakker": {
+                "password": 1827.0
+            }
+        },
+        "Raj Sales|ACUSDR4923": {
+            "Hitesh Thakker": {
+                "password": 1827.0
+            }
+        },
+        "C.J.Malaviya & Co.|ACUSDC0049": {
+            "Hitesh Thakker": {
+                "password": 1827.0
+            }
+        },
         "Shree Ji Enterprises|ACUSDS0174": {
             "Hitesh Thakker": {
                 "password": 1827.0
@@ -21,13 +36,13 @@
             }
         },
         "Khemani Enetrprises (Conf)|ACUSDK2024": {
-            "Vacant": {
-                "password": 1164.0
+            "Jatin Jain": {
+                "password": 2025.0
             }
         },
         "Proline Sales Agency|ACUSDP5556": {
-            "Vacant": {
-                "password": 1164.0
+            "Jatin Jain": {
+                "password": 2025.0
             }
         },
         "Farr Ayo Distribution|ACUSDF0061": {
@@ -35,24 +50,9 @@
                 "password": 4370.0
             }
         },
-        "Parshvanath Sales Agency|ACUSDP0211": {
-            "Hitesh Thakker": {
-                "password": 1827.0
-            }
-        },
         "Joshi Enterprises|ACUSDJ0572": {
             "Vacant": {
                 "password": 1164.0
-            }
-        },
-        "Raj Sales|ACUSDR4923": {
-            "Hitesh Thakker": {
-                "password": 1827.0
-            }
-        },
-        "C.J.Malaviya & Co.|ACUSDC0049": {
-            "Hitesh Thakker": {
-                "password": 1827.0
             }
         },
         "Somnath Ji Traders|ACUSDS4925": {
@@ -63,6 +63,21 @@
     },
     "Haryana": {
         "Satnam Sales|AQUSDK2024": {
+            "Yogesh": {
+                "password": 2025.0
+            }
+        },
+        "Shakshi Enterprises|ACUSDS0338": {
+            "Jasbeer Verma": {
+                "password": 2025.0
+            }
+        },
+        "Jai Shri Shyam Traders|LCLSOJ0054": {
+            "Yogesh": {
+                "password": 2025.0
+            }
+        },
+        "Maruti Enterprises|ACUSDM0088": {
             "Yogesh": {
                 "password": 2025.0
             }
@@ -158,33 +173,200 @@
             }
         },
         "Ravindra Associates|ACUSDR0520": {
-            "Yogesh": {
-                "password": 2025.0
-            }
-        },
-        "Shakshi Enterprises|ACUSDS0338": {
-            "Jasbeer Verma": {
-                "password": 2025.0
-            }
-        },
-        "Jai Shri Shyam Traders|LCLSOJ0054": {
-            "Yogesh": {
-                "password": 2025.0
-            }
-        },
-        "Maruti Enterprises|ACUSDM0088": {
-            "Yogesh": {
+            "Rakesh Kumar": {
                 "password": 2025.0
             }
         }
     },
+    "Madhya Pradesh": {
+        "Vinay Traders|ACUSDV0207": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        },
+        "Naman Enterprises|ACUSDN1114": {
+            "Anand Gupta": {
+                "password": 2025.0
+            }
+        },
+        "Anant Wardrobe|ACUSD00073": {
+            "Brajesh Sharma": {
+                "password": 2025.0
+            }
+        },
+        "O.S. Agency|ACUSDO0028": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        },
+        "Shree Gopalji Enterprises|ACUSDS2806": {
+            "Ankit Bhardwaj": {
+                "password": 2025.0
+            }
+        },
+        "Barsaiya Traders|ACUSDB0005": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        },
+        "Goyal Marketing|ACUSDG0603": {
+            "Ankit Bhardwaj": {
+                "password": 2025.0
+            }
+        },
+        "Parvati Agency|ACUSDP4826": {
+            "Ankit Bhardwaj": {
+                "password": 2025.0
+            }
+        },
+        "Aakash Trading Co|ACUSDA0830": {
+            "Ankit Bhardwaj": {
+                "password": 2025.0
+            }
+        },
+        "Churaman Biharilal Asati|ACUSDC0531": {
+            "Anand Gupta": {
+                "password": 2025.0
+            }
+        },
+        "Varun Enterprises|ACUSDV0208": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        },
+        "Amit Sales|ACUSDA0137": {
+            "Anand Gupta": {
+                "password": 2025.0
+            }
+        },
+        "Shanti Marketing|ACUSDS4808": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        },
+        "Abhinandan Enterprises|ACUSDA0088": {
+            "Brajesh Sharma": {
+                "password": 2025.0
+            }
+        },
+        "R.D. Plastic|ACUSDR0127": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        },
+        "Krishna Enterprises|": {
+            "Ankit Bhardwaj": {
+                "password": 2025.0
+            }
+        },
+        "Aggarwal Agency|ACUSDA0410": {
+            "Ankit Bhardwaj": {
+                "password": 2025.0
+            }
+        },
+        "Bhagwan Das Kirana And General Store|": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            },
+            "": {
+                "password": 2025.0
+            }
+        },
+        "Reliable Industry|ACUSDR0204": {
+            "Vinay Pandey": {
+                "password": 2025.0
+            }
+        }
+    },
+    "Maharashtra": {
+        "Jainil Traders|ACUSDJ0023": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
+        "Prabhat Agency|ACUSDP2385": {
+            "Rakesh Tripathi": {
+                "password": 2025.0
+            }
+        },
+        "Krishna Marketing|ACUSDSS006": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
+        "Tirupati Agencies|ACUSDSS002": {
+            "Rakesh Tripathi": {
+                "password": 2025.0
+            }
+        },
+        "Shree Datta Agency|ACUSDSS004": {
+            "Rakesh Tripathi": {
+                "password": 2025.0
+            }
+        },
+        "Prabhat Trading Com.|ACUSDP0183": {
+            "Anil Jamadar Singh": {
+                "password": 5808.0
+            }
+        },
+        "Adhira Agency|ACUSDSS005": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
+        "Optimize Crusder|ACUSDO0026": {
+            "Kapil Sharma": {
+                "password": 4920.0
+            }
+        },
+        "Krishna Agencies|ACUSDSS003": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
+        "Bharat Traders|ACUSDB0039": {
+            "Kapil Sharma": {
+                "password": 4920.0
+            }
+        },
+        "J.K. Brothers|ACUSDJ4838": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
+        "Jai Mata Di Agency|ACUSDSS001": {
+            "Vacant": {
+                "password": 1164.0
+            }
+        },
+        "Sunrise Enterprises|ACUSDS0771": {
+            "Dinesh Sharma": {
+                "password": 7757.0
+            }
+        },
+        "Nidhi Sales|ACUSDN4807": {
+            "Anil Jamadar Singh": {
+                "password": 5808.0
+            }
+        },
+        "Ajinkya Traders|ACUSDA0146": {
+            "Shailesh Surve": {
+                "password": 7136.0
+            }
+        },
+        "Navinya Enterprises|ACUSDN0052": {
+            "Shailesh Surve": {
+                "password": 7136.0
+            }
+        }
+    },
     "Punjab": {
-        "Anand Sales|ACUSDA0820": {
+        "Garg Sales Corporation|ACUSDG1091": {
             "Neeraj Kapoor": {
                 "password": 2025.0
             }
         },
-        "Garg Sales Corporation|ACUSDG1091": {
+        "Anand Sales|ACUSDA0820": {
             "Neeraj Kapoor": {
                 "password": 2025.0
             }
@@ -219,11 +401,6 @@
                 "password": 2025.0
             }
         },
-        "Suri Enterprises|ACUSD00062": {
-            "Pradeep": {
-                "password": 2025.0
-            }
-        },
         "Grace Drinks Pvt Ltd|ACUSDG0174": {
             "Rohit Medirata": {
                 "password": 2025.0
@@ -238,324 +415,12 @@
             }
         }
     },
-    "Himachal Pradesh": {
-        "Deepak Enterprises|ACUSDD0616": {
-            "Parmod Kumar": {
-                "password": 2025.0
-            }
-        },
-        "Katna Sales|ACUSDK0086": {
-            "Parmod Kumar": {
-                "password": 2025.0
-            }
-        },
-        "Rattanchand And Sons|ACUSDR0130": {
-            "Parmod Kumar": {
-                "password": 2025.0
-            }
-        },
-        "Amar Nath Harishchand|ACUSDA0133": {
-            "Parmod Kumar": {
-                "password": 2025.0
-            }
-        },
-        "Shashank Enteprises|ACUSDS4809": {
-            "Parmod Kumar": {
-                "password": 2025.0
-            }
-        }
-    },
-    "Madhya Pradesh": {
-        "Vinay Traders|ACUSDV0207": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        },
-        "Shree Gopalji Enterprises|ACUSDS2806": {
-            "Ankit Bhardwaj": {
-                "password": 2025.0
-            }
-        },
-        "Barsaiya Traders|ACUSDB0005": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        },
-        "Goyal Marketing|ACUSDG0603": {
-            "Ankit Bhardwaj": {
-                "password": 2025.0
-            }
-        },
-        "Parvati Agency|ACUSDP4826": {
-            "Ankit Bhardwaj": {
-                "password": 2025.0
-            }
-        },
-        "Naman Enterprises|ACUSDN1114": {
-            "Anand Gupta": {
-                "password": 2025.0
-            }
-        },
-        "Anant Wardrobe|ACUSD00073": {
-            "Brajesh Sharma": {
-                "password": 2025.0
-            }
-        },
-        "Aakash Trading Co|ACUSDA0830": {
-            "Ankit Bhardwaj": {
-                "password": 2025.0
-            }
-        },
-        "Churaman Biharilal Asati|ACUSDC0531": {
-            "Anand Gupta": {
-                "password": 2025.0
-            }
-        },
-        "Varun Enterprises|ACUSDV0208": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        },
-        "Amit Sales|ACUSDA0137": {
-            "Anand Gupta": {
-                "password": 2025.0
-            }
-        },
-        "Shanti Marketing|ACUSDS4808": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        },
-        "Abhinandan Enterprises|ACUSDA0088": {
-            "Brajesh Sharma": {
-                "password": 2025.0
-            }
-        },
-        "O.S. Agency|ACUSDO0028": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        },
-        "R.D. Plastic|ACUSDR0127": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        },
-        "Krishna Enterprises|": {
-            "Ankit Bhardwaj": {
-                "password": 2025.0
-            }
-        },
-        "Aggarwal Agency|ACUSDA0410": {
-            "Ankit Bhardwaj": {
-                "password": 2025.0
-            }
-        },
-        "Bhagwan Das Kirana And General Store|": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            },
-            "": {
-                "password": 2025.0
-            }
-        },
-        "Reliable Industry|ACUSDR0204": {
-            "Vinay Pandey": {
-                "password": 2025.0
-            }
-        }
-    },
-    "Maharashtra": {
-        "Prabhat Agency|ACUSDP2385": {
-            "Rakesh Tripathi": {
-                "password": 2025.0
-            }
-        },
-        "Prabhat Trading Com.|ACUSDP0183": {
-            "Anil Jamadar Singh": {
-                "password": 5808.0
-            }
-        },
-        "Adhira Agency|ACUSDSS005": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Optimize Crusder|ACUSDO0026": {
-            "Kapil Sharma": {
-                "password": 4920.0
-            }
-        },
-        "Jainil Traders|ACUSDJ0023": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Krishna Agencies|ACUSDSS003": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Bharat Traders|ACUSDB0039": {
-            "Kapil Sharma": {
-                "password": 4920.0
-            }
-        },
-        "J.K. Brothers|ACUSDJ4838": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Jai Mata Di Agency|ACUSDSS001": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Sunrise Enterprises|ACUSDS0771": {
-            "Dinesh Sharma": {
-                "password": 7757.0
-            }
-        },
-        "Nidhi Sales|ACUSDN4807": {
-            "Anil Jamadar Singh": {
-                "password": 5808.0
-            }
-        },
-        "Krishna Marketing|ACUSDSS006": {
-            "Vacant": {
-                "password": 1164.0
-            }
-        },
-        "Ajinkya Traders|ACUSDA0146": {
-            "Shailesh Surve": {
-                "password": 7136.0
-            }
-        },
-        "Tirupati Agencies|ACUSDSS002": {
-            "Rakesh Tripathi": {
-                "password": 2025.0
-            }
-        },
-        "Shree Datta Agency|ACUSDSS004": {
-            "Rakesh Tripathi": {
-                "password": 2025.0
-            }
-        },
-        "Navinya Enterprises|ACUSDN0052": {
-            "Shailesh Surve": {
-                "password": 7136.0
-            }
-        }
-    },
-    "Rajasthan": {
-        "Rasik Remedies Pvt. Ltd.|ACUSDR0074": {
-            "So Praveen Saxena": {
-                "password": 2025.0
-            }
-        },
-        "Palak Agency|ACUSDP0178": {
-            "Satish Singh": {
-                "password": 6530.0
-            }
-        },
-        "New Sunrise Agency|ACUSDN0605": {
-            "Puneet Kansara": {
-                "password": 2025.0
-            }
-        },
-        "Jai Shankar Agency|ACUSDJ0595": {
-            "Sarwan Sharma": {
-                "password": 2025.0
-            }
-        },
-        "Shri Vidhan Agency|ACUSDS0364": {
-            "Ajay Sachdeva / Ashu Tosh": {
-                "password": 2025.0
-            }
-        },
-        "Geeta Enterprise|ACUSDG0149": {
-            "Rajendra Singh": {
-                "password": 2025.0
-            }
-        },
-        "Ravi Enterprises|ACUSDR0154": {
-            "So Praveen Saxena": {
-                "password": 2025.0
-            }
-        },
-        "Karni Traders|ACUSDK0094": {
-            "Ashish": {
-                "password": 2025.0
-            }
-        },
-        "Rajlaxmi Enterprises|ACUSDJ0013": {
-            "Subhash Yogi": {
-                "password": 2025.0
-            }
-        },
-        "Vinod Agency|ACUSDV0142": {
-            "Satish Singh": {
-                "password": 6530.0
-            }
-        },
-        "Rajeev Traders|ACUSDR0179": {
-            "Rajendra Singh": {
-                "password": 2025.0
-            }
-        },
-        "Baba Ramdev Distributors|ACUSDB0027": {
-            "Lavish Sethi": {
-                "password": 2025.0
-            },
-            "Atul": {
-                "password": 2025.0
-            }
-        },
-        "Dv Trading Company|ACUSDD0103": {
-            "Lavish Sethi": {
-                "password": 2025.0
-            },
-            "Cp Gaur": {
-                "password": 7301.0
-            }
-        },
-        "I.G.Foods & Snacks Ltd. (Conf)|ACUSDI0135": {
-            "Mahendra Pal Singh": {
-                "password": 2025.0
-            }
-        },
-        "Nls Brothers Private Limited|ACUSDN0055": {
-            "Mahendra Pal Singh": {
-                "password": 2025.0
-            }
-        },
-        "Jyoti Enterprises|ACUSDJ1006": {
-            "Sarwan Sharma": {
-                "password": 2025.0
-            }
-        },
-        "Shri Shyam Trading Company|ACUSDS0441": {
-            "Subhash Yogi": {
-                "password": 2025.0
-            }
-        },
-        "Agrawal Traders|ACUSDA0168": {
-            "Puneet Kansara": {
-                "password": 2025.0
-            }
-        },
-        "Arvind Agency|ACUSDA0106": {
-            "Ajay Sachdeva / Ashu Tosh": {
-                "password": 2025.0
-            }
-        },
-        "Satnam Traders|ACUSDS0269": {
-            "Subhash Yogi": {
-                "password": 2025.0
-            }
-        }
-    },
     "Uttarakhand": {
+        "Ankit Kumar & Brothers|ACUSDA0797": {
+            "Avneesh": {
+                "password": 2025.0
+            }
+        },
         "Ravi Sons Enterprises|ACUSDR0205": {
             "Mahesh": {
                 "password": 2025.0
@@ -601,11 +466,6 @@
                 "password": 2025.0
             }
         },
-        "Ankit Kumar & Brothers|ACUSDA0797": {
-            "Avneesh": {
-                "password": 2025.0
-            }
-        },
         "Shyam Sunder Enterprises- Pithoragarh|ACUSDS0462": {
             "Mahesh": {
                 "password": 2025.0
@@ -613,6 +473,141 @@
         },
         "Shree Balaji Sales|ACUSDS0202": {
             "Salabh Partap": {
+                "password": 2025.0
+            }
+        }
+    },
+    "Himachal Pradesh": {
+        "Deepak Enterprises|ACUSDD0616": {
+            "Parmod Kumar": {
+                "password": 2025.0
+            }
+        },
+        "Katna Sales|ACUSDK0086": {
+            "Parmod Kumar": {
+                "password": 2025.0
+            }
+        },
+        "Rattanchand And Sons|ACUSDR0130": {
+            "Parmod Kumar": {
+                "password": 2025.0
+            }
+        },
+        "Amar Nath Harishchand|ACUSDA0133": {
+            "Parmod Kumar": {
+                "password": 2025.0
+            }
+        },
+        "Shashank Enteprises|ACUSDS4809": {
+            "Parmod Kumar": {
+                "password": 2025.0
+            }
+        }
+    },
+    "Rajasthan": {
+        "Rasik Remedies Pvt. Ltd.|ACUSDR0074": {
+            "So Praveen Saxena": {
+                "password": 2025.0
+            }
+        },
+        "Palak Agency|ACUSDP0178": {
+            "Rajendra Singh": {
+                "password": 2025.0
+            }
+        },
+        "New Sunrise Agency|ACUSDN0605": {
+            "Puneet Kansara": {
+                "password": 2025.0
+            }
+        },
+        "Jai Shankar Agency|ACUSDJ0595": {
+            "Dili Renua": {
+                "password": 2025.0
+            }
+        },
+        "Shri Vidhan Agency|ACUSDS0364": {
+            "Ajay Sachdeva / Ashu Tosh": {
+                "password": 2025.0
+            }
+        },
+        "Geeta Enterprise|ACUSDG0149": {
+            "Rajendra Singh": {
+                "password": 2025.0
+            }
+        },
+        "Ravi Enterprises|ACUSDR0154": {
+            "So Praveen Saxena": {
+                "password": 2025.0
+            }
+        },
+        "Karni Traders|ACUSDK0094": {
+            "Ashish": {
+                "password": 2025.0
+            }
+        },
+        "Rajlaxmi Enterprises|ACUSDJ0013": {
+            "Subhash Yogi": {
+                "password": 2025.0
+            }
+        },
+        "Vinod Agency|ACUSDV0142": {
+            "Rajendra Singh": {
+                "password": 2025.0
+            }
+        },
+        "Rajeev Traders|ACUSDR0179": {
+            "Rajendra Singh": {
+                "password": 2025.0
+            }
+        },
+        "Baba Ramdev Distributors|ACUSDB0027": {
+            "Lavish Sethi": {
+                "password": 2025.0
+            },
+            "Atul": {
+                "password": 2025.0
+            }
+        },
+        "Dv Trading Company|ACUSDD0103": {
+            "Lavish Sethi": {
+                "password": 2025.0
+            },
+            "Cp Gaur": {
+                "password": 7301.0
+            }
+        },
+        "I.G.Foods & Snacks Ltd. (Conf)|ACUSDI0135": {
+            "Mahendra Pal Singh": {
+                "password": 2025.0
+            }
+        },
+        "Nls Brothers Private Limited|ACUSDN0055": {
+            "Mahendra Pal Singh": {
+                "password": 2025.0
+            }
+        },
+        "Jyoti Enterprises|ACUSDJ1006": {
+            "Dili Renua": {
+                "password": 2025.0
+            }
+        },
+        "Shri Shyam Trading Company|ACUSDS0441": {
+            "Subhash Yogi": {
+                "password": 2025.0
+            }
+        },
+        "Agrawal Traders|ACUSDA0168": {
+            "Puneet Kansara": {
+                "password": 2025.0
+            }
+        },
+        "Arvind Agency|ACUSDA0106": {
+            "Ajay Sachdeva / Ashu Tosh": {
+                "password": 2025.0
+            }
+        },
+        "Satnam Traders|ACUSDS0269": {
+            "Subhash Yogi": {
                 "password": 2025.0
             }
         }
